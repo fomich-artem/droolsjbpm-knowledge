@@ -20,8 +20,6 @@ public interface KnowledgeService {
 
 	void releaseStatefulKnowledgeSession();
 
-	void markSynchronizationRegistered();
-
 	int getStatefulKnowledgeSessionId(StatefulKnowledgeSession ksession);
 
 	int getCurrentStatefulKnowledgeSessionId();

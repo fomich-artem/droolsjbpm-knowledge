@@ -14,7 +14,11 @@ public class KnowledgeServiceLocator {
 	public static String KNOWLEDGE_SERVICE_CONTEXT_VARIABLE = "knowledgeService";
 
 	public static KnowledgeService getInstance() {
-		return (KnowledgeService) Component.getInstance(KNOWLEDGE_SERVICE_CONTEXT_VARIABLE, true);
+		return getInstance(KnowledgeService.class);
+	}
+
+	public static <T extends KnowledgeService> T getInstance(Class<T> clazz) {
+		return (T) Component.getInstance(KNOWLEDGE_SERVICE_CONTEXT_VARIABLE, true);
 	}
 
 }
