@@ -195,5 +195,13 @@
       <artifactId>cdi-api</artifactId>
       <scope>provided</scope><!-- HACK for OSGi: should be <optional>true</optional> instead -->
     </dependency>
+
+    <!-- openicar dependencies -->
+    <dependency>
+      <groupId>org.jboss.seam</groupId>
+      <artifactId>jboss-seam</artifactId>
+      <type>ejb</type>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
 </project>
