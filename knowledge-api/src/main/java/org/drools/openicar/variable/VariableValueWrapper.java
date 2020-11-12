@@ -17,4 +17,15 @@ public interface VariableValueWrapper {
 	 */
 	void setValue(Object value) throws ConverterException;
 
+	/**
+	 * Gives primitive value, simple representation of original value
+	 * wich can be persisted
+	 */
+	Object getPrimitiveValue();
+
+	/**
+	 * Checks value is null 
+	 */
+	boolean isNull();
+
 }
