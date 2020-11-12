@@ -28,4 +28,6 @@ public interface KnowledgeService {
 
 	long getTimerOverdueDelay();
 
+	String getClusterNodeName();
+
 }
