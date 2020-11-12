@@ -26,4 +26,6 @@ public interface KnowledgeService {
 
 	boolean isStarted();
 
+	long getTimerOverdueDelay();
+
 }
