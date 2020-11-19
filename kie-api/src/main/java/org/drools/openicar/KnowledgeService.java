@@ -16,6 +16,8 @@ public interface KnowledgeService {
 
 	KnowledgeBase getKnowledgeBase();
 
+	String getRealProcesId(String processId);
+
 	StatefulKnowledgeSession getStatefulKnowledgeSession();
 
 	void releaseStatefulKnowledgeSession();
