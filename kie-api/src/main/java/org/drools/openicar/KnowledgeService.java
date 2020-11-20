@@ -2,6 +2,7 @@
 package org.drools.openicar;
 
 import org.drools.KnowledgeBase;
+import org.drools.openicar.profiler.Profiler;
 import org.drools.runtime.StatefulKnowledgeSession;
 
 /**
@@ -31,5 +32,7 @@ public interface KnowledgeService {
 	long getTimerOverdueDelay();
 
 	String getClusterNodeName();
+
+	Profiler getProfiler();
 
 }
