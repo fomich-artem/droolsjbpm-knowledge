@@ -1,6 +1,6 @@
-package org.drools.openicar.variable;
+package org.kie.api.openicar.variable;
 
-import org.drools.openicar.KnowledgeService;
+import org.kie.api.openicar.KnowledgeService;
 
 /**
  * OpenIcar variable service

@@ -1,5 +1,5 @@
 
-package org.drools.openicar;
+package org.kie.api.openicar;
 
 import org.jboss.seam.Component;
 

@@ -1,9 +1,9 @@
 
-package org.drools.openicar;
+package org.kie.api.openicar;
 
-import org.drools.KnowledgeBase;
-import org.drools.openicar.profiler.Profiler;
-import org.drools.runtime.StatefulKnowledgeSession;
+import org.kie.api.KieBase;
+import org.kie.api.openicar.profiler.Profiler;
+import org.kie.api.runtime.KieSession;
 
 /**
  * OpenIcar-integration
@@ -15,15 +15,15 @@ import org.drools.runtime.StatefulKnowledgeSession;
  */
 public interface KnowledgeService {
 
-	KnowledgeBase getKnowledgeBase();
+	KieBase getKnowledgeBase();
 
 	String getRealProcesId(String processId);
 
-	StatefulKnowledgeSession getStatefulKnowledgeSession();
+	KieSession getStatefulKnowledgeSession();
 
 	void releaseStatefulKnowledgeSession();
 
-	int getStatefulKnowledgeSessionId(StatefulKnowledgeSession ksession);
+	int getStatefulKnowledgeSessionId(KieSession ksession);
 
 	int getCurrentStatefulKnowledgeSessionId();
 

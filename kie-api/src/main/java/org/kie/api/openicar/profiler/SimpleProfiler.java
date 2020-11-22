@@ -1,6 +1,6 @@
-package org.drools.openicar.profiler;
+package org.kie.api.openicar.profiler;
 
-import org.drools.openicar.KnowledgeServiceLocator;
+import org.kie.api.openicar.KnowledgeServiceLocator;
 
 public class SimpleProfiler {
 

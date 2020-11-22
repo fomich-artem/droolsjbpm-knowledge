@@ -1,4 +1,4 @@
-package org.drools.openicar.profiler;
+package org.kie.api.openicar.profiler;
 
 public interface Profiler {
 

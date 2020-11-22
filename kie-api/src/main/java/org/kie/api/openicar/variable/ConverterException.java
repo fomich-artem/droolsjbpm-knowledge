@@ -1,4 +1,4 @@
-package org.drools.openicar.variable;
+package org.kie.api.openicar.variable;
 
 /**
  * Converter exceptions class
