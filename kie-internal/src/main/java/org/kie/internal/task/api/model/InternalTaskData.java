@@ -157,4 +157,8 @@ public interface InternalTaskData extends TaskData {
 
     void setTaskOutputVariables(Map<String, Object> taskOutputVariables);
 
+    void setProcessKey(String processKey);
+
+    void setProcessInstanceIdsPath(String processInstanceIdsPath);
+
 }

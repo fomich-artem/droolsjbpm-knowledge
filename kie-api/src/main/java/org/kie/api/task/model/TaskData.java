@@ -73,4 +73,8 @@ public interface TaskData extends Externalizable {
 
     Map<String, Object> getTaskOutputVariables();
 
+    String getProcessKey();
+
+    String getProcessInstanceIdsPath();
+
 }
