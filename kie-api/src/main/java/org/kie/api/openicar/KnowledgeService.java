@@ -23,9 +23,9 @@ public interface KnowledgeService {
 
     void releaseStatefulKnowledgeSession();
 
-    int getStatefulKnowledgeSessionId(KieSession ksession);
+    Long getStatefulKnowledgeSessionId(KieSession ksession);
 
-    int getCurrentStatefulKnowledgeSessionId();
+    Long getCurrentStatefulKnowledgeSessionId();
 
     boolean isStarted();
 
