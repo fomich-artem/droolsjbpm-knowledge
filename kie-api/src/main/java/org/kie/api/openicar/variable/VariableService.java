@@ -10,7 +10,7 @@ import org.kie.api.openicar.KnowledgeService;
  */
 public interface VariableService extends KnowledgeService {
 
-	VariableValueWrapper wrapVariable(Object value);
-	Object unwrapVariable(Object value);
+    VariableValueWrapper wrapVariable(Object value);
+    Object unwrapVariable(Object value);
 
 }

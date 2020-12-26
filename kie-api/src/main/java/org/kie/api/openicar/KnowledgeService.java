@@ -15,24 +15,24 @@ import org.kie.api.runtime.KieSession;
  */
 public interface KnowledgeService {
 
-	KieBase getKnowledgeBase();
+    KieBase getKnowledgeBase();
 
-	String getRealProcesId(String processId);
+    String getRealProcesId(String processId);
 
-	KieSession getStatefulKnowledgeSession();
+    KieSession getStatefulKnowledgeSession();
 
-	void releaseStatefulKnowledgeSession();
+    void releaseStatefulKnowledgeSession();
 
-	int getStatefulKnowledgeSessionId(KieSession ksession);
+    int getStatefulKnowledgeSessionId(KieSession ksession);
 
-	int getCurrentStatefulKnowledgeSessionId();
+    int getCurrentStatefulKnowledgeSessionId();
 
-	boolean isStarted();
+    boolean isStarted();
 
-	long getTimerOverdueDelay();
+    long getTimerOverdueDelay();
 
-	String getClusterNodeName();
+    String getClusterNodeName();
 
-	Profiler getProfiler();
+    Profiler getProfiler();
 
 }

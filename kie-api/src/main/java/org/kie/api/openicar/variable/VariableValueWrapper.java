@@ -7,25 +7,25 @@ package org.kie.api.openicar.variable;
  */
 public interface VariableValueWrapper {
 
-	/**
-	 * Gives original value
-	 */
-	Object getValue() throws ConverterException;
+    /**
+     * Gives original value
+     */
+    Object getValue() throws ConverterException;
 
-	/**
-	 * Sets original value
-	 */
-	void setValue(Object value) throws ConverterException;
+    /**
+     * Sets original value
+     */
+    void setValue(Object value) throws ConverterException;
 
-	/**
-	 * Gives primitive value, simple representation of original value
-	 * wich can be persisted
-	 */
-	Object getPrimitiveValue();
+    /**
+     * Gives primitive value, simple representation of original value
+     * wich can be persisted
+     */
+    Object getPrimitiveValue();
 
-	/**
-	 * Checks value is null 
-	 */
-	boolean isNull();
+    /**
+     * Checks value is null 
+     */
+    boolean isNull();
 
 }

@@ -11,12 +11,12 @@ public class SimpleProfiler {
         }
     };
 
-	public static void st(String suffix) {
-	    tlProfiler.get().st(suffix);
-	}
+    public static void st(String suffix) {
+        tlProfiler.get().st(suffix);
+    }
 
-	public static void en(String suffix) {
-	    tlProfiler.get().en(suffix);
-	}
+    public static void en(String suffix) {
+        tlProfiler.get().en(suffix);
+    }
 
 }

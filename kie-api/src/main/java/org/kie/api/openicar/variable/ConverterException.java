@@ -8,28 +8,28 @@ package org.kie.api.openicar.variable;
  */
 public class ConverterException extends RuntimeException {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	/**
-	 * @param message
-	 */
-	public ConverterException(String message) {
-		super(message);
-	}
+    /**
+     * @param message
+     */
+    public ConverterException(String message) {
+        super(message);
+    }
 
-	/**
-	 * @param cause
-	 */
-	public ConverterException(Throwable cause) {
-		super(cause);
-	}
+    /**
+     * @param cause
+     */
+    public ConverterException(Throwable cause) {
+        super(cause);
+    }
 
-	/**
-	 * @param message
-	 * @param cause
-	 */
-	public ConverterException(String message, Throwable cause) {
-		super(message, cause);
-	}
+    /**
+     * @param message
+     * @param cause
+     */
+    public ConverterException(String message, Throwable cause) {
+        super(message, cause);
+    }
 
 }
