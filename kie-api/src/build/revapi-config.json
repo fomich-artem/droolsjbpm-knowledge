@@ -88,6 +88,24 @@
                  "methodName": "getIncludes",
                  "elementKind": "method",
                  "justification": "generate ProjectModel for executable model"
+              },
+              {
+                 "code": "java.method.addedToInterface",
+                 "new": "method java.lang.String org.kie.api.task.model.TaskData::getProcessInstanceIdsPath()",
+                 "package": "org.kie.api.task.model",
+                 "classSimpleName": "TaskData",
+                 "methodName": "getProcessInstanceIdsPath",
+                 "elementKind": "method",
+                 "justification": "Provides access to process instance ids hierarchy"
+              },
+              {
+                 "code": "java.method.addedToInterface",
+                 "new": "method java.lang.String org.kie.api.task.model.TaskData::getProcessKey()",
+                 "package": "org.kie.api.task.model",
+                 "classSimpleName": "TaskData",
+                 "methodName": "getProcessKey",
+                 "elementKind": "method",
+                 "justification": "Provides access to process key"
               }
             ]
         }
