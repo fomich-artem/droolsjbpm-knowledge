@@ -4,6 +4,7 @@ package org.kie.api.openicar;
 import org.kie.api.KieBase;
 import org.kie.api.openicar.profiler.Profiler;
 import org.kie.api.runtime.KieSession;
+import org.kie.api.runtime.process.ProcessInstance;
 
 /**
  * OpenIcar-integration
@@ -34,5 +35,7 @@ public interface KnowledgeService {
     String getClusterNodeName();
 
     Profiler getProfiler();
+
+    Long getRootProcessInstanceId(ProcessInstance processInstance);
 
 }
