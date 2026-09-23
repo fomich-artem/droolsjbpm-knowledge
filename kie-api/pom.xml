@@ -197,11 +197,6 @@
     </dependency>
 
     <!-- openicar dependencies -->
-    <dependency>
-      <groupId>org.jboss.seam</groupId>
-      <artifactId>jboss-seam</artifactId>
-      <type>ejb</type>
-      <scope>provided</scope>
-    </dependency>
+    <!-- Де-Сим (mosaek, 2026-09-14): jboss-seam снят — реальных импортов в kie-api не было -->
   </dependencies>
 </project>
